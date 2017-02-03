@@ -19,3 +19,9 @@ and type
 
 
 win! win! win 
+
+
+To upgrade Docker compose
+1.curl -L "https://github.com/docker/compose/releases/download/1.8.1/docker-compose-$(uname -s)-$(uname -m)" > ./docker-compose
+2.sudo mv ./docker-compose /usr/bin/docker-compose
+3.sudo chmod +x /usr/bin/docker-compose
